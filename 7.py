@@ -8,7 +8,7 @@ print(element_id)
 
 element_name = driver.find_element_by_name('q')
 print(element_name)
-
+#navigate to the id and find the first heading
 heading_xpath = driver.find_element_by_xpath("//*[@id='mainContent']/h2[1]")
 print(heading_xpath)
 
