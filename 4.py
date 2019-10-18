@@ -1,4 +1,4 @@
-#locate elements by their HTML ID attribute
+#locate elements by their HTML name attribute
 from selenium import webdriver
 driver= webdriver.Chrome()
 driver.get("file:///C:/Users/ocben/pythonAutomation/page.html")
