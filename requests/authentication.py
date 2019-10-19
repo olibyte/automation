@@ -7,5 +7,15 @@ print(response.json())
 
 time.sleep(2)
 #github developer settings, generate token
-response = requests.get(url, headers={'Authorization': 'Bearer 1d292656fce9ce91c5e9233e8788f2eff0b0d9e3'})
+response = requests.get(url, headers={'Authorization': 'Bearer 45a412f521310b6fda54fa31622eb56822e799e3'})
 print(response.json())
+
+#parsing data
+
+#print each key
+my_json = response.json()
+for key in my_json.keys():
+    print(key)
+
+time.sleep(2)
+print('My id: ' + str(my_json['id']))
