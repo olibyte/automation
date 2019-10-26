@@ -11,7 +11,7 @@ headers = {
    "Authorization": cred
 }
 
-curl -D- -u fred:fred -X PUT --data {see below} -H "Content-Type: application/json" http://kelpie9:8081/rest/api/2/issue/QA-31
+# curl -D- -u fred:fred -X PUT --data {see below} -H "Content-Type: application/json" http://kelpie9:8081/rest/api/2/issue/QA-31
 
 {
    "fields": {
