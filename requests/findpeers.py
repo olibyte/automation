@@ -13,6 +13,8 @@ bb_url = ''
 canvas_url = ''
 # response = requests.get(url)
 # print(response.json())
+all_peers_bb = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%222.%20Comparative%20Check%20%26%20Fixes%22%20AND%20resolution%20%3D%20Unresolved%20AND%20assignee%20in%20(EMPTY%2C%20oliver.bennett%2C%20atia.kabir)%20ORDER%20BY%20priority%20DESC&fields=customfield_12231'
+all_peers_canvas = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%222.%20Comparative%20Check%20%26%20Fixes%22%20AND%20resolution%20%3D%20Unresolved%20AND%20assignee%20in%20(EMPTY%2C%20oliver.bennett%2C%20atia.kabir)%20ORDER%20BY%20priority%20DESC&fields=customfield_12266'
 import base64
 cred =  "Basic " + base64.b64encode(b'').decode("utf-8")
 headers = {
@@ -21,8 +23,8 @@ headers = {
    "Authorization": cred
 }
 time.sleep(2)
-canvas_response = requests.get(all_canvas_id, headers=headers)
-bb_response = requests.get(all_bb_id, headers=headers)
+canvas_response = requests.get(all_peers_canvas, headers=headers)
+bb_response = requests.get(all_peers_bb, headers=headers)
 # print(response.json())
 
 #parsing data
@@ -44,9 +46,13 @@ for issue in bb_json['issues']:
         # print(issue['fields'][field])
         bb_shell_list.append(issue['fields'][field])
 
-print(canvas_shell_list)
-print(bb_shell_list)
+# print(canvas_shell_list)
+# print(bb_shell_list)
 actionable_canvas = str(len(canvas_shell_list))
 actionable_bb = str(len(bb_shell_list))
 print('actionable_canvas: ' + actionable_canvas)
 print('actionable_bb: ' + actionable_bb)
+for canvas_shell in canvas_shell_list:
+    print(canvas_shell)
+for bb_shell in bb_shell_list:
+    print(bb_shell)
