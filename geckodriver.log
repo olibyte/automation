@@ -5549,3 +5549,458 @@ hrome_C[ChihildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/s
 [GPU 15132, 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1572143672989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ocben\\AppData\\Local\\Temp\\rust_mozprofileGbRgsy"
+1572143673774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572143673774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572143673775	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572143673775	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572143675651	Marionette	INFO	Listening on port 59512
+1572143676119	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/js/course-settings.js?v=3400.0.3-rel.33+7014650, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_383931_1&content_id=_7394547_1, line 677: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_383931_1&content_id=_7394547_1, line 767: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 25288, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 25288, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/c[Child 2hromium/src/chrome/common/ipc_channel_win.cc, line 341
+1212, Chr[Child 4ome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21212, Chrome_ChildThread] WARNING: pipe error: 109:[Parent 25288, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 28416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 28411572144487183	Marionette	INFO	Stopped listening on port 59512
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 28240, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+L pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 843: ReferenceError: calendar is not defined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseMain?course_id=_383931_1, line 518: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_383931_1, line 884: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_383931_1, line 610: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 712: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 833: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_389602_1&content_id=_7160511_1, line 770: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/js/course-settings.js?v=3400.0.3-rel.33+7014650, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContent.jsp?course_id=_389602_1&content_id=_7160511_1, line 1390: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_389602_1, line 803: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_389602_1, line 613: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 715: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+[Parent 22668, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 22668, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12668, Chrome_ChildThre[Child 5912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child[Parent 22668, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572144481369	Marionette	INFO	Stopped listening on port 59730
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8040, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572144581106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ocben\\AppData\\Local\\Temp\\rust_mozprofileGqVxBw"
+1572144581479	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572144581479	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572144581479	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572144581479	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572144582999	Marionette	INFO	Listening on port 59949
+1572144583116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 799: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 799: TypeError: $$(...)[0] is undefined
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.pythonforbeginners.com/basics/boolean?cf_action=sync_comments&post_id=540, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 5648, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3340, Chr[Child 25184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src[Child 30312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 30312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/bui
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+ld/src/ipc/chromium/src/chrome/common/ipc_[Child 25400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18696, Chrome_ChildThread] WA1572146946880	Marionette	INFO	Stopped listening on port 59949
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 26256,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseMain?course_id=_383931_1, line 518: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_383931_1, line 884: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_383931_1, line 610: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 712: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 833: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7160511_1&course_id=_389602_1, line 2124: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+[Parent 22884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 22884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13456, Chrome_ChildThread] [Child 26560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 26560, Chrome_Chi
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+ldThread] WARNING: pipe error: 109: file z:/tas[Ch1572146940199	Marionette	INFO	Stopped listening on port 60862
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 3816, Chrome_ChildT
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ps://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 22780, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 22780, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_156570675[Child 25524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25524, Chrome_ChildThread] WARNING: pipe error: [Parent 22780, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572146927809	Marionette	INFO	Stopped listening on port 61276
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 14220, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+[Parent 2216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/s[Chirc/chrolme/common/d 12960, Chrome_ChildThreiapd] WARNING: pipe error: 109: file z:/task_c_channel_win.c15657c, line 34016750/b
+uild/src/ipc/chromium/src/chro[Child 17m868, Chrome_e/common/ipcChildThre_channel_win.cc, line 341
+a[Child 129[Parent 2216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4980, Chrome1572146914179	Marionette	INFO	Stopped listening on port 61695
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 18796, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572147310668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ocben\\AppData\\Local\\Temp\\rust_mozprofile8UJs5z"
+1572147311087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572147311087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572147311088	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572147311088	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572147312596	Marionette	INFO	Listening on port 62046
+1572147312677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d991e3dfc9abb2549972ce8b64c5d85.html?origin=https%3A%2F%2Fapp.lms.unimelb.edu.au, line 12: Error: Network error.
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+[Parent 3980, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 29960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [C3h0712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 30712, Chrome_Chi[Parent 3980, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11572147753021	Marionette	INFO	Stopped listening on port 62046
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 18596
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+agmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d991e3dfc9abb2549972ce8b64c5d85.html?origin=https%3A%2F%2Fapp.lms.unimelb.edu.au, line 12: Error: Network error.
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_383931_1, line 884: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_383931_1, line 610: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 712: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 833: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7160511_1&course_id=_389602_1, line 2124: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_389602_1, line 803: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_389602_1, line 613: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 715: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_383931_1, line 884: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_383931_1, line 369: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+[Parent 11720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 85[Parent 11720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 28836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 28836, Chrome_ChildT[Parent 11720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11324, 1572147743279	Marionette	INFO	Stopped listening on port 62137
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 26764, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572147809841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ocben\\AppData\\Local\\Temp\\rust_mozprofiletGdNOj"
+1572147810228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572147810228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572147810229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572147810229	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572147811701	Marionette	INFO	Listening on port 62259
+1572147811857	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.2d991e3dfc9abb2549972ce8b64c5d85.html?origin=https%3A%2F%2Fapp.lms.unimelb.edu.au, line 12: Error: Network error.
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseMain?course_id=_383931_1, line 518: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://static.adsafeprotected.com/main.19.8.25.js, line 295: TypeError: d is undefined
+JavaScript error: https://static.adsafeprotected.com/main.19.8.25.js, line 295: TypeError: d is undefined
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 8120, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8120, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8120, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li[Child 20380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20380, Chrome_ChildThread] WARNING: pipe error:[Child 4892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4892, Chrome_ChildThread] WARNING: pipe error: 1
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+09: file z:/task_1565706750/build/src/ipc/chro
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+mium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8120, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10491572148720411	Marionette	INFO	Stopped listening on port 62259
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 18052, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+F47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseMain?course_id=_383931_1, line 518: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_383931_1, line 884: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_383931_1, line 610: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 712: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 833: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7160511_1&course_id=_389602_1, line 2124: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_389602_1, line 803: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_389602_1, line 613: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 715: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+[Parent 2704, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2704, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 24480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome[Ch/commoild 251n/ip04, c_chaChrome_ChildThread] nWnel_win.ccARNI,NG: pipe error: 109: fi le z:/talinesk_1565 7341
+06750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t[Parent 2704, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 181572148708258	Marionette	INFO	Stopped listening on port 62655
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1954
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572149060424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ocben\\AppData\\Local\\Temp\\rust_mozprofileOl4npY"
+1572149060861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572149060861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572149060862	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572149060862	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572149062448	Marionette	INFO	Listening on port 62843
+1572149062461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_41_1, line 728: TypeError: $$(...)[0] is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221571529674307%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 594: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/groupjs/9D255248CBEA15231045E2FF47E88559.js?v=3400.0.3-rel.33+7014650, line 6181: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7394547_1&course_id=_383931_1, line 935: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_383931_1, line 884: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_383931_1, line 610: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 712: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager?sourceType=COURSES, line 778: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/execute/courseManager, line 833: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/blackboard/content/listContentEditable.jsp?content_id=_7160511_1&course_id=_389602_1, line 2124: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/index.jsp?course_id=_389602_1, line 803: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp?course_id=_389602_1, line 613: TypeError: $$(...)[0] is undefined
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/uom-staffrolemanage-bb_bb60/add_staff_role.jsp, line 715: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://app.lms.unimelb.edu.au/javascript/jquery/jquery.js?v=3400.0.3-rel.33+7014650, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://app.lms.unimelb.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_9_1, line 555: TypeError: $$(...)[0] is undefined

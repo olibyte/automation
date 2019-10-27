@@ -9,8 +9,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 users = ['senhaoz1', 'mckew', 'akinyokuno', 'naranetaalan', 'hitoa', 'duricg', 'smitss', 'drummondk']
-password = 'A6764febde!'
-email = 'oliver.bennett@unimelb.edu.au'
+password = ''
+email = ''
 user_id = 'oliverb2'
 bb_source_id = 'NURS90025_2020_SM1'
 canvas_source_id = 'NURS90025_2020_SM1'
