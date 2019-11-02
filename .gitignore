@@ -1,3 +1,4 @@
+.gitignore
 selenium\3zulu.py
 selenium\2beta.py
 selenium\1A.py
@@ -6,3 +7,8 @@ requests\findpeers.py
 requests\scribble.json
 selenium\geckodriver.log
 selenium\scribble.py
+requests\jira\temp.py
+requests\jiratest.py
+requests\jiratest2.py
+requests\authentication.py
+geckodriver.log
