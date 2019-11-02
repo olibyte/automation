@@ -10,4 +10,3 @@ requests\jira\temp.py
 requests\jiratest.py
 requests\jiratest2.py
 requests\authentication.py
-geckodriver.log
