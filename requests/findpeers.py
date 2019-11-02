@@ -13,10 +13,10 @@ bb_url = ''
 canvas_url = ''
 # response = requests.get(url)
 # print(response.json())
-all_peers_bb = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%222.%20Comparative%20Check%20%26%20Fixes%22%20AND%20resolution%20%3D%20Unresolved%20AND%20assignee%20in%20(EMPTY%2C%20oliver.bennett%2C%20atia.kabir)%20ORDER%20BY%20priority%20DESC&fields=customfield_12231'
-all_peers_canvas = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%222.%20Comparative%20Check%20%26%20Fixes%22%20AND%20resolution%20%3D%20Unresolved%20AND%20assignee%20in%20(EMPTY%2C%20oliver.bennett%2C%20atia.kabir)%20ORDER%20BY%20priority%20DESC&fields=customfield_12266'
+all_peers_bb = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20"2.%20Comparative%20Check%20%26%20Fixes"%20AND%20resolution%20%3D%20Unresolved%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(atia.kabir%2C%20currentUser()%2C%20EMPTY)%20AND%20"Peer%20Reviewer"%20in%20(EMPTY)%20ORDER%20BY%20priority%20DESC&fields=customfield_12231'
+all_peers_canvas = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20"2.%20Comparative%20Check%20%26%20Fixes"%20AND%20resolution%20%3D%20Unresolved%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(atia.kabir%2C%20currentUser()%2C%20EMPTY)%20AND%20"Peer%20Reviewer"%20in%20(EMPTY)%20ORDER%20BY%20priority%20DESC&fields=customfield_12266'
 import base64
-cred =  "Basic " + base64.b64encode(b'').decode("utf-8")
+cred =  "Basic " + base64.b64encode(b'oliver.bennett@unimelb.edu.au:h0tD9Rl1Ep4TTmnjHrWB8521').decode("utf-8")
 headers = {
    "Accept": "application/json",
    "Content-Type": "application/json",

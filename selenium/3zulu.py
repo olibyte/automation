@@ -3,17 +3,22 @@ import time
 import json
 import jira
 #JQL queries.
-all_canvas_id = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project+%3D+CSM+AND+issuetype+%3D+Subject+AND+status+in+%28%221.+Selected+for+Action%22%2C+Backlog%29+AND+resolution+%3D+Unresolved+AND+%22Auto+Migration+Status%22+%3D+Success+AND+Faculty+in+%28%22Architecture%2C+Building+and+Planning%22%2C+%22Medicine%2C+Dentistry+and+Health+Sciences%22%29+ORDER+BY+priority+DESC&fields=customfield_12266'
-all_bb_id = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project+%3D+CSM+AND+issuetype+%3D+Subject+AND+status+in+%28%221.+Selected+for+Action%22%2C+Backlog%29+AND+resolution+%3D+Unresolved+AND+%22Auto+Migration+Status%22+%3D+Success+AND+Faculty+in+%28%22Architecture%2C+Building+and+Planning%22%2C+%22Medicine%2C+Dentistry+and+Health+Sciences%22%29+ORDER+BY+priority+DESC&fields=customfield_12231'
+all_canvas_id = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20in%20("1.%20Selected%20for%20Action"%2C%20Backlog)%20AND%20resolution%20%3D%20Unresolved%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(EMPTY%2C%20atia.kabir%2C%20oliver.bennett())%20ORDER%20BY%20priority%20DESC&fields=customfield_12231'
+all_bb_id = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20in%20("1.%20Selected%20for%20Action"%2C%20Backlog)%20AND%20resolution%20%3D%20Unresolved%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(EMPTY%2C%20atia.kabir%2C%20currentUser())%20ORDER%20BY%20priority%20DESC&fields=customfield_12266'
 
-canvas_id = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%221.%20Selected%20for%20Action%22%20AND%20resolution%20%3D%20Unresolved%20AND%20%22Auto%20Migration%20Status%22%20%3D%20Success%20AND%20Faculty%20in%20(%22Architecture%2C%20Building%20and%20Planning%22%2C%20%22Medicine%2C%20Dentistry%20and%20Health%20Sciences%22)%20ORDER%20BY%20priority%20DESC&fields=customfield_12231'
-bb_id = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%221.%20Selected%20for%20Action%22%20AND%20resolution%20%3D%20Unresolved%20AND%20%22Auto%20Migration%20Status%22%20%3D%20Success%20AND%20Faculty%20in%20(%22Architecture%2C%20Building%20and%20Planning%22%2C%20%22Medicine%2C%20Dentistry%20and%20Health%20Sciences%22)%20ORDER%20BY%20priority%20DESC&fields=customfield_12266'
+all_peers_canvas = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20"2.%20Comparative%20Check%20%26%20Fixes"%20AND%20resolution%20%3D%20Unresolved%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(atia.kabir%2C%20oliver.bennett()%2C%20EMPTY)%20AND%20"Peer%20Reviewer"%20in%20(EMPTY)%20ORDER%20BY%20priority%20DESC&fields=customfield_12231'
+all_peers_bb = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20"2.%20Comparative%20Check%20%26%20Fixes"%20AND%20resolution%20%3D%20Unresolved%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(atia.kabir%2C%20oliver.bennett()%2C%20EMPTY)%20AND%20"Peer%20Reviewer"%20in%20(EMPTY)%20ORDER%20BY%20priority%20DESC&fields=customfield_12266'
 
-test_can = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%222.%20Comparative%20Check%20%26%20Fixes%22%20AND%20resolution%20%3D%20Unresolved%20AND%20%22Auto%20Migration%20Status%22%20%3D%20Success%20AND%20Faculty%20in%20(%22Architecture%2C%20Building%20and%20Planning%22%2C%20%22Medicine%2C%20Dentistry%20and%20Health%20Sciences%22)%20AND%20assignee%20in%20(EMPTY%2C%20currentUser())%20ORDER%20BY%20priority%20DESC&fields=customfield_12231'
-test_bb = 'https://uomouajv.atlassian.net/rest/api/3/search?jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20%222.%20Comparative%20Check%20%26%20Fixes%22%20AND%20resolution%20%3D%20Unresolved%20AND%20%22Auto%20Migration%20Status%22%20%3D%20Success%20AND%20Faculty%20in%20(%22Architecture%2C%20Building%20and%20Planning%22%2C%20%22Medicine%2C%20Dentistry%20and%20Health%20Sciences%22)%20AND%20assignee%20in%20(EMPTY%2C%20currentUser())%20ORDER%20BY%20priority%20DESC&fields=customfield_12266'
+# query = 'jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20in%20("1.%20Selected%20for%20Action"%2C%20Backlog)%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(oliver.bennett%2C%20EMPTY%2C%20atia.kabir)%20ORDER%20BY%20priority%20DESC'
+# query = 'jql=project%20%3D%20CSM%20AND%20status%20%3D%20"2.%20Comparative%20Check%20%26%20Fixes"%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Architecture%2C%20Building%20and%20Planning"%2C%20"Medicine%2C%20Dentistry%20and%20Health%20Sciences")%20AND%20assignee%20in%20(oliver.bennett%2C%20EMPTY%2C%20atia.kabir)%20AND%20"Peer%20Reviewer"%20in%20(EMPTY)%20ORDER%20BY%20priority%20DESC'
+# query = 'jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20in%20("1.%20Selected%20for%20Action"%2C%20Backlog)%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Business%20and%20Economics"%2C%20Education%2C%20Engineering%2C%20"Melbourne%20Graduate%20School%20of%20Education"%2C%20Science)%20AND%20assignee%20in%20(EMPTY)%20ORDER%20BY%20status%20DESC%2C%20updated%20DESC'
+#Find peer reviews:
+query = 'jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20%3D%20"2.%20Comparative%20Check%20%26%20Fixes"%20AND%20resolution%20%3D%20Unresolved%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20assignee%20in%20(atia.kabir%2C%20david.roker%2C%20EMPTY%2C%20oliver.bennett)%20AND%20"Peer%20Reviewer"%20in%20(EMPTY)%20ORDER%20BY%20priority%20DESC'
+#Nikhil
+# query = 'jql=project%20%3D%20CSM%20AND%20issuetype%20%3D%20Subject%20AND%20status%20in%20("1.%20Selected%20for%20Action"%2C%20Backlog)%20AND%20"Auto%20Migration%20Status"%20%3D%20Success%20AND%20Faculty%20in%20("Business%20and%20Economics"%2C%20Education%2C%20Engineering%2C%20"Melbourne%20Graduate%20School%20of%20Education"%2C%20Science)%20AND%20assignee%20in%20(EMPTY)%20ORDER%20BY%20status%20DESC%2C%20updated%20DESC'
 #AUTH
 import base64
-cred =  "Basic " + base64.b64encode(b'').decode("utf-8")
+cred =  "Basic " + base64.b64encode(b'oliver.bennett@unimelb.edu.au:h0tD9Rl1Ep4TTmnjHrWB8521').decode("utf-8")
 headers = {
    "Accept": "application/json",
    "Content-Type": "application/json",
@@ -21,21 +26,21 @@ headers = {
 }
 time.sleep(2)
 #The first parameter of each request is your JQL search
-canvas_response = requests.get(test_can, headers=headers)
-bb_response = requests.get(test_bb, headers=headers)
+canvas_response = requests.get('https://uomouajv.atlassian.net/rest/api/3/search?'+query+'&fields=customfield_12231', headers=headers)
+bb_response = requests.get('https://uomouajv.atlassian.net/rest/api/3/search?'+query+'&fields=customfield_12266', headers=headers)
 
 canvas_shell_list = []
 bb_shell_list = []
 
 #Build lists of source IDs
 canvas_json = canvas_response.json()
-# print('Available Canvas source ids:')
+
 for issue in canvas_json['issues']:
     for field in issue['fields']:
         canvas_shell_list.append(issue['fields'][field])
 
 bb_json = bb_response.json()
-# print('Available BB source IDs:')
+
 for issue in bb_json['issues']:
     for field in issue['fields']:
         bb_shell_list.append(issue['fields'][field])
@@ -54,17 +59,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-password = ''
-email = ''
+password = 'margaretthatcheris110%SEXY'
+email = 'oliver.bennett@unimelb.edu.au'
 user_id = 'oliverb2'
 
 users = ['atiak', 'droker','oliverb2','senhaoz1', 'mckew', 'akinyokuno', 'naranetaalan', 'hitoa', 'duricg', 'smitss', 'drummondk']
-checkers = ['senhaoz1', 'mckew', 'akinyokuno', 'naranetaalan', 'hitoa', 'duricg']
-peers =  ['smitss','drummondk']
 
-enrolee_id = users[0]
-peer_id = peers[1]
-number_of_shells=2
+enrolee_id = users[10]
+number_of_shells=4
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--start-maximized") 
@@ -154,6 +156,8 @@ for x in bb_shell_list[:number_of_shells]:
     finally:
         courseInfoSearchKeyString = Select(blackboard.find_element_by_id('courseInfoSearchKeyString'))
         courseInfoSearchKeyString.select_by_visible_text('Subject ID')
+        courseInfoSearchOperatorString = Select(blackboard.find_element_by_xpath('/html/body/div[5]/div[2]/div/div/div[2]/div/form/fieldset/div[1]/select[2]'))
+        courseInfoSearchOperatorString.select_by_visible_text('Equal to')
         courseInfoSearchText = blackboard.find_element_by_id('courseInfoSearchText')
         courseInfoSearchText.clear()
         time.sleep(2)
@@ -205,6 +209,8 @@ for x in bb_shell_list[:number_of_shells]:
             EC.presence_of_element_located((By.ID, 'pattern'))
         )
     finally:
+        operator = Select(blackboard.find_element_by_id('operator'))
+        operator.select_by_visible_text('Equal to')
         pattern = blackboard.find_element_by_id('pattern')
         pattern.clear()
         time.sleep(1)
@@ -215,10 +221,15 @@ for x in bb_shell_list[:number_of_shells]:
         )
     finally:
         chevron = blackboard.find_element_by_xpath('/html/body/div[5]/div[2]/div/div/div/div/div[2]/div[2]/div[2]/div/table/tbody/tr/td[1]/span[2]/span/a')
-
-        chevron.click()
-        chevron.send_keys(Keys.ARROW_DOWN, Keys.RETURN)
-
+        try:
+            chevron.click()
+            time.sleep(1)
+            sc_target = blackboard.find_element_by_link_text('Subject coordinator')
+            sc_target.click()
+            # chevron.send_keys(Keys.ARROW_DOWN, Keys.RETURN)
+            time.sleep(5)
+        except:
+            print('Failed to add user as SC.')
         element= WebDriverWait(blackboard, 10).until(
             EC.presence_of_element_located((By.ID, 'Sys Admin'))
         )
