@@ -1,2 +1,3 @@
-*3zulu.py
+selenium/3zulu.py
+#ignore all logs
 *.log
