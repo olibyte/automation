@@ -11,10 +11,11 @@ def pickDirectory(value):
         for suffix in suffixes:
             if suffix == value:
                 return category
+    return 'MISC'
 print(pickDirectory('.pdf'))
 
 def organizeDirectory():
-    for items in os.scandir():
+    for item in os.scandir():
         filePath = Path(item)
         fileType = filePath.suffix.lower()
         directory = pickDirectory(fileType)
@@ -22,3 +23,5 @@ def organizeDirectory():
         if directoryPath.is_dir() != True:
             directoryPath.mkdir()
         filePath.rename(directoryPath.joinpath(filePath))
+
+organizeDirectory()
